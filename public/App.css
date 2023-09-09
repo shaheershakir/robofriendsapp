@@ -1,0 +1,113 @@
+button {
+  margin-top: 10px;
+}
+
+h1 {
+  padding-left: 2%;
+}
+
+thead,
+tfoot {
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+tbody {
+    background-color: #e4f0f5;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+}
+
+td {
+    text-align: center;
+}
+
+  tr th{
+    padding: 10px;
+  }
+  li {
+    padding: 5px;
+
+  }
+
+.column {
+    display: inline;
+}
+
+.create-poll input {
+  padding: 4px;
+  margin-bottom: 5px;
+  width: 95%;
+}
+
+.create-poll {
+  background-color: antiquewhite;
+  margin: 20px 5px;
+  padding: 15px;
+  width: fit-content;
+}
+
+.header{
+    padding: 20px 0px;
+    background-color: bisque;
+    border: 1px solid black;
+
+}
+.content{
+    padding-top: 15px;
+
+}
+
+.primary-btn {
+  font-size: 10px; 
+  background-color: rgb(103, 103, 207);
+  color: white;
+  padding: 10px 20px; 
+  border: none;
+
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  }
+
+.table-poll-data {
+  margin: 20px;
+}
+
+.tag{
+  background-color: antiquewhite;
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.radio {
+  margin: 40px;
+}
+
+.vote-btn {
+  margin-left: 2%;
+  padding: 10px;
+}
+
+
+
+
+  
