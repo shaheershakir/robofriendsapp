@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import CardList from "./CardList"; // import the Card component
 import SearchField from "./SearchBox"; // import the SearchField component
 import Scroll from "./Scroll"; // import the Scroll component
+import Error from "./Error"; // import the Error component
 import "../App.css";
 
 function App () {
@@ -29,7 +30,9 @@ function App () {
               <h1>RoboFriends</h1>
               <SearchField searchChange={onSearchChange} />
               <Scroll>
-                <CardList robots={filteredRobots} />
+                <Error>
+                  <CardList robots={filteredRobots} />
+                </Error>
               </Scroll>
           </div>
        );   
